@@ -1,0 +1,139 @@
+body {
+    font-family: "Crimson Text", "Times New Roman", serif;
+    background-color: #F2FFFC;
+    font-size: 120%;
+}
+
+h1, h2 {
+    font-family: "Open Sans  Condensed", "Arial", sans-serif;
+}
+
+main {
+    line-height: 1.5;
+}
+
+.titulo-principal {
+    background-color: #851944;
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    padding: 25px;
+    border-bottom: 10px solid black;
+    text-transform: uppercase;
+}
+
+.container {
+    width: 720px;
+    margin: auto;
+    padding: 30px 0 80px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+.subtitulo-texto {
+    font-size: 30px;
+    clear: both;
+}
+
+main a {
+    color: #851944;
+}
+
+p {
+    text-align: justify;
+    margin: 20px 0;
+}
+
+.navegacao-site {
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+    text-align: center;
+    padding: 20px;
+   
+}
+
+.navegacao-site  h1 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+
+.icones-redes-sociais li{
+    display: inline-block;
+}
+
+.icones-redes-sociais a {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-indent: -99999px;
+}
+
+.github {
+    background-image: url(../img/github.png);
+    display: block;
+}
+
+.twitter {
+    background-image: url(../img/twitter.png);
+    display: block;
+}
+
+.linkedin {
+    background-image: url(../img/linkedin.png);
+    display: block;
+}
+
+aside, footer {
+    padding: 20px;
+}
+
+#rodape-pagina {
+    background-color: #000;
+    color: #F2FFFC;
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+aside a {
+    color: inherit;
+    font-family: "Open Sans Condensed",sans-serif;
+ }
+
+nav a {
+    color: #f2FFFC;
+    text-transform: lowercase;
+}
+
+main {
+    float: left;
+    width: 85%;
+}
+
+.minha-foto, .navegacao-site {
+    float: right;
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
+    box-sizing: border-box;
+}
+
+.minha-foto {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.navegacao-site {
+    width: 15%;
+    position: relative;
+    top: 310px;
+}
